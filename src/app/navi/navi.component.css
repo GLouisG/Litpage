@@ -1,0 +1,9 @@
+
+nav{
+  position:relative;
+}
+
+.navbar-nav{
+  position:absolute;
+  left: 80%;
+}
