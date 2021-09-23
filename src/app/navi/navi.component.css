@@ -1,9 +1,14 @@
 
 nav{
   position:relative;
+  background-color: #efc8b1;
+  color: #514644;
 }
 
 .navbar-nav{
   position:absolute;
   left: 80%;
+}
+.nav-link{
+  color: #5b0e2d;
 }
