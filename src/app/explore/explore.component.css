@@ -1,0 +1,13 @@
+.container{
+  text-align: center;
+
+}
+.stories{
+  margin-top: 5%;
+  margin-left: 8%;
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  background-color: #efc8b1;
+  color: #514644;
+}
