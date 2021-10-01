@@ -6,6 +6,21 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class DataService {
-
   constructor(private http:HttpClient) { }
+  getStories():Observable<any>{
+    
+   return this.http.get<any>(`https://`)
+  }  
+  getAction():Observable<any>{
+    
+    return this.http.get<any>(`https://`)
+   }  
+  getFantasy():Observable<any>{
+    
+    return this.http.get<any>(`https://`)
+   }  
+  getScifi():Observable<any>{
+    
+    return this.http.get<any>(`https://`)
+   }      
 }
